@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: coral;
+
+}
+
+.container {
+  width: 50vh;
+  max-width: 300px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 25px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+p {
+  margin: 20px;
+  padding: 10px 5px;
+}
